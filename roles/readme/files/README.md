@@ -1,6 +1,6 @@
 # README
 
-Hi! Welcome to the "My Developer VM".
+Hi! Welcome to the "GEG Developer VM".
 
 ## Overview
 

@@ -12,7 +12,7 @@ Vagrant.configure("2") do |config|
   config.vm.provider "virtualbox" do |vbox, override|
     vbox.cpus = 4
     vbox.memory = 4096
-    vbox.customize ["modifyvm", :id, "--name", "Linux Developer VM"]
+    vbox.customize ["modifyvm", :id, "--name", "Linux Developer myVM"]
     vbox.customize ["modifyvm", :id, "--usb", "on"]
     vbox.customize ["modifyvm", :id, "--accelerate3d", "off"]
     vbox.customize ["modifyvm", :id, "--graphicscontroller", "vmsvga"]
